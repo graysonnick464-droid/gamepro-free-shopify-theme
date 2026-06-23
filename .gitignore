@@ -1,0 +1,8 @@
+node_modules/
+.shopify/
+*.log
+*.zip
+.DS_Store
+*.code-workspace
+assets/migmaster-*
+assets/hero-mig-flash.png

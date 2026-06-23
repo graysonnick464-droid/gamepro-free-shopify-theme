@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "gamepro_hero": {
+      "type": "gamepro-hero",
+      "blocks": {
+        "feature_customize": {
+          "type": "feature",
+          "settings": {
+            "text": "Easy to customize"
+          }
+        },
+        "feature_responsive": {
+          "type": "feature",
+          "settings": {
+            "text": "Responsive design"
+          }
+        },
+        "feature_shopify": {
+          "type": "feature",
+          "settings": {
+            "text": "Built for Shopify"
+          }
+        }
+      },
+      "block_order": [
+        "feature_customize",
+        "feature_responsive",
+        "feature_shopify"
+      ],
+      "settings": {
+        "image_alt": "Unbranded gaming controller, charging dock, and USB-C cable",
+        "eyebrow": "Gear for every setup",
+        "heading": "PLAY BETTER. STAY READY.",
+        "text": "<p>A flexible storefront for gaming gear, electronics, and everyday accessories.</p>",
+        "primary_label": "Shop products",
+        "primary_link": "/collections/all",
+        "secondary_label": "Browse collections",
+        "secondary_link": "/collections"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "",
+        "products_to_show": 6,
+        "title": "Featured gear",
+        "heading_size": "h1",
+        "description": "<p>Choose a collection in the theme editor to feature your best products.</p>",
+        "show_description": true,
+        "description_style": "body",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "gamepro_hero",
+    "featured_collection"
+  ]
+}
