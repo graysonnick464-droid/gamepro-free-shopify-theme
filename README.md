@@ -15,6 +15,16 @@ The bundled generic catalog is placeholder content. Replace it with your own Sho
 
 ## Quick Start
 
+### Upload a ZIP
+
+1. Download the repository and unzip it.
+2. Create a new ZIP whose root directly contains `assets`, `config`, `layout`, `locales`, `sections`, `snippets`, and `templates`.
+3. In Shopify admin, open **Online Store > Themes**, select **Add theme > Upload ZIP file**, and upload the new archive.
+
+Do not upload the GitHub archive with its outer repository folder intact. Shopify must find `layout/theme.liquid` and `config/settings_schema.json` at the archive root.
+
+### Shopify CLI
+
 Install the latest Shopify CLI, clone the theme, then preview it against a development store:
 
 ```bash
@@ -69,6 +79,13 @@ The repository intentionally excludes merchant product photos and third-party br
 ## Project Status
 
 Version `1.0.0` is installable and intended as a practical starting point. See [docs/ROADMAP.md](docs/ROADMAP.md) for optional future improvements.
+
+## Documentation
+
+- [中文安装与使用教程](docs/USAGE_ZH.md)
+- [Release checklist](docs/RELEASE_CHECKLIST.md)
+- [Open-source review](docs/OPEN_SOURCE_REVIEW.md)
+- [Roadmap](docs/ROADMAP.md)
 
 ## Contributing
 
