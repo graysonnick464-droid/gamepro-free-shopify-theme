@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -45,6 +54,37 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "seeonwall_com_seeonwall_button_L3E47d": {
+          "type": "shopify://apps/seeonwall-com/blocks/seeonwall-button/019cdd1c-6b73-7c6d-8604-1bf111ae9dde",
+          "settings": {
+            "frame_preset": "Bladee - 333 Wall Tapestry",
+            "frame_default_cm": "51\"60",
+            "frame_default_color": "",
+            "button_style": "brand",
+            "button_match_colors": false,
+            "button_variant": "solid",
+            "button_bg_color": "",
+            "button_text_color": "",
+            "button_border_color": "",
+            "button_border_radius": "",
+            "button_css_class": "",
+            "button_text_en": "",
+            "button_text_pl": "",
+            "button_text_de": "",
+            "button_text_es": "",
+            "button_text_fr": "",
+            "button_text_it": "",
+            "button_text_pt": "",
+            "button_text_nl": "",
+            "button_text_sv": "",
+            "button_text_nb": "",
+            "button_text_da": "",
+            "button_text_fi": "",
+            "button_text_cs": "",
+            "button_text_sk": "",
+            "show_variant_readout": true
+          }
         }
       },
       "block_order": [
@@ -55,7 +95,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "seeonwall_com_seeonwall_button_L3E47d"
       ],
       "settings": {
         "enable_sticky_info": true,
